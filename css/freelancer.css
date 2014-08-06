@@ -135,6 +135,10 @@ header .intro-text .skills {
     display: inline-block;
 }
 
+#chevron {
+    font-size: 1em;
+}
+
 @media(min-width:768px) {
     header .container {
         padding-top: 200px;
@@ -307,7 +311,11 @@ li img {
     #portfolio .portfolio-item {
         margin: 75px 0 20px;
     }
-    section {
+    section#portfolio {
+        height: 100%;
+    }
+
+    section#about {
         height: 100%;
     }
 }
