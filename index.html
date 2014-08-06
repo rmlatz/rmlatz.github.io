@@ -145,12 +145,12 @@
                     <img src="./img/portfolio/me.jpg" class="me">
                 </div>
                 <div class="col-sm-4">
-                    <p class="about">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor molestias veniam vero perferendis maiores sint! Blanditiis sed provident recusandae unde consequuntur cumque, quisquam dolores tenetur deleniti nam, veniam dolore eum.</p>
-                </div>
-                <div class="col-sm-4">
                     <p class="about">I am an open and collaborative problem solver. I believe that having a wide variety of perspectives is the best way to
                     grow, so I actively identify and cultivate the strengths of those I work with. I learn from these strengths and make them
                     my own. This approach provides the means to affect positive change in the world around me.</p>
+                </div>
+                <div class="col-sm-4">
+                    <p class="about">I am seeking to apply the skills I possess through my passion for web development and coding. This is a field I really enjoy and I know I can make a meaningful, positive impact for the causes I care about and create products that will do some good.</p>
                 </div>
             </div>
         </div>
@@ -177,7 +177,7 @@
                                 <a href="http://www.twitter.com/rmlatz" target="_blank"><i class="fa fa-fw fa-twitter"></i><p>Twitter</p></a>
                             </li>
                             <li>
-                                <a href="http://www.linkedin.com/in/randylatz/"><i class="fa fa-fw fa-linkedin" target="_blank"></i><p>LinkedIn</p></a>
+                                <a href="http://www.linkedin.com/in/randylatz/" target="_blank"><i class="fa fa-fw fa-linkedin"></i><p>LinkedIn</p></a>
                             </li>
                             <li>
                                 <a href="./assets/Resume.pdf" target="_blank"><i class="fa fa-fw fa-file-text" target="_blank"></i><p>Resume</p></a>
@@ -187,10 +187,11 @@
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <p class="email">or shoot me an email</p>
+                    <p class="email">or shoot me an email:</p>
+                    <p class="email">rmlatz@gmail.com</p>
                     <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
                     <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-                    <form action="/webformmailer.php" method="post" name="sentMessage" id="contactForm" novalidate>
+                    <form action="/contact_me.php" method="post" name="sentMessage" id="contactForm" novalidate>
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Name</label>
@@ -285,7 +286,7 @@
                         <div class="modal-body">
                             <h2>WildFire</h2>
                             <hr>
-                            <img src="img/portfolio/wf.png" class="img-responsive img-centered" alt="">
+                            <a href="http://wild-fyre.herokuapp.com/" target="_blank"><img src="img/portfolio/wf.png" class="img-responsive img-centered" alt=""></a>
                             <p>WildFire was a group project carried out over a week with a team of 6.  This app was designed to generate buzz for social events by masking the location of the event until sufficient use of a twitter hashtag had been achieved, using a variety of technologies. This project represented a deepdive into the agile development process, specifically the scrum methodology. Additionally, this project provided an opportunity to become very familiar with git workflow. Communication was incredibly important for this project and I was very lucky to have such an amazing team with which to work.</p>
                             <ul class="list-inline item-details">
                                 <li>Technologies:
@@ -293,15 +294,15 @@
                                     </strong>
                                 </li>
                                 <li>Team:
-                                    <strong><a href="https://github.com/ab75173">Adam Barrett,</a>
+                                    <strong><a href="https://github.com/ab75173" target="_blank">Adam Barrett,</a>
                                     </strong>
-                                    <strong><a href="https://github.com/maryhipp">Mary Hipp,</a>
+                                    <strong><a href="https://github.com/maryhipp" target="_blank">Mary Hipp,</a>
                                     </strong>
-                                    <strong><a href="https://github.com/Gabe888">Gabe Snyder,</a>
+                                    <strong><a href="https://github.com/Gabe888" target="_blank">Gabe Snyder,</a>
                                     </strong>
-                                    <strong><a href="https://github.com/OKitsMikael">Mikael Davis,</a>
+                                    <strong><a href="https://github.com/OKitsMikael" target="_blank">Mikael Davis,</a>
                                     </strong>
-                                    <strong><a href="https://github.com/thmsweaver">Thomas Weaver</a>
+                                    <strong><a href="https://github.com/thmsweaver" target="_blank">Thomas Weaver</a>
                                     </strong>
                                 </li>
                             </ul>
@@ -328,8 +329,8 @@
                         <div class="modal-body">
                             <h2>VizVolt</h2>
                             <hr>
-                            <a href="http://vizvolt.herokuapp.com"><img src="img/portfolio/vv.png" class="img-responsive img-centered" alt=""></a>
-                            <p>This project was spent learning a new technology. I had barely used the D3 JavaScript library prior to this app. The idea of the app and of D3 is data visualization. By collecting data from the <a href=”http://www.eia.gov/”>EIA</a> API, I was able to use D3 to create a donut chart to visually display energy production in the United States and individual states by the fuel type used. This project is one I am very proud of, I feel I learn a lot through the process, not only just with the new technology I used, but with the process of learning a new technology in general. Additionally, this project is one I really want to continue to work on and expand into something that is really impressive in conveying information. </p>
+                            <a href="http://vizvolt.herokuapp.com" target="_blank"><img src="img/portfolio/vv.png" class="img-responsive img-centered" alt=""></a>
+                            <p>This project was spent learning a new technology. I had barely used the D3 JavaScript library prior to this app. The idea of the app and of D3 is data visualization. By collecting data from the <a href="http://www.eia.gov/" target="_blank">EIA</a> API, I was able to use D3 to create a donut chart to visually display energy production in the United States and individual states by the fuel type used. This project is one I am very proud of, I feel I learned a lot through the process, not only just with the new technology I used, but with the process of learning a new technology in general. Additionally, this project is one I really want to continue to work on and expand into something that is really impressive in conveying information. </p>
                             <ul class="list-inline item-details">
                                 <li>Technologies:
                                     <strong>Ruby on Rails, D3, APIs, Figaro, Postgresql </a>
